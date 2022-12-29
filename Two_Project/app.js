@@ -14,7 +14,17 @@ btns.forEach(function(btn){
         if(styles.contains("reset")){
             count=0;
         }
-        val.textContent=count;        
+        val.textContent=count;
+        if(count>0){
+            val.style.color="green";
+        }
+        if(count<0){
+            val.style.color="red";
+        }
+        if(count===0){
+            val.style.color="black";
+        }
+                
     })
         
 })
