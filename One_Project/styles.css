@@ -156,12 +156,12 @@ main {
 Nav
 ===============
 */
-.active{
+/* .active{
   color:var(--clr-primary-5);
-}
-a:link:active {
+} */
+/* a:link:active {
   color: var(--clr-primary-5);
-}
+} */
 nav {
   background: var(--clr-white);
   height: 3rem;
@@ -181,9 +181,13 @@ nav {
   margin-bottom: 0;
   color: var(--clr-primary-5);
 }
+.inde{
+  color: var(--clr-primary-5);
+}
 .nav-links {
   display: flex;
 }
+
 nav a {
   text-transform: capitalize;
   font-weight: 700;
